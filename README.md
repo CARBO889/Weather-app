@@ -8,9 +8,9 @@ Here’s a simple description for your GitHub repository for the Weather App pro
 This Weather App is a web application that allows users to search for the current weather in any city worldwide. It fetches live weather data from the OpenWeatherMap API and displays the city name, temperature, humidity, wind speed, and weather condition with corresponding icons.
 
 Features
-🌍 Search by City: Enter any city name to fetch live weather data.
-🌡️ Temperature: Displays the current temperature in Celsius.
-💧 Humidity: Shows the percentage of humidity.
+🌍 Search by City: Enter any city name to fetch live weather data.<br>
+🌡️ Temperature: Displays the current temperature in Celsius.<br>
+💧 Humidity: Shows the percentage of humidity.<br>
 💨 Wind Speed: Displays wind speed in kilometers per hour (KM/H).
 🌤️ Weather Icons: Dynamically updates the weather icon based on the current weather condition (e.g., Clouds, Rain, Mist, etc.).
 ❌ Error Handling: Displays an error message if the city name is invalid or not found.

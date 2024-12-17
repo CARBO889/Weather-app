@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    
+<div class="card">
+    <div class="search">
+        <input type="text" placeholder="Enter City Name" spellcheck="false">
+        <button><img src="search.png" alt="search icon"></button>
+    </div>
+
+    <div class="error" style="display: none;">
+        <p>INVALID CITY</p>
+    </div>
+
+    <div class="weather" style="display: none;">
+        <img src="" class="weather-icon" alt="weather icon">
+        <h1 class="temp">9°C</h1>
+        <h2 class="city">New Delhi</h2>
+        <div class="details">
+            <div class="col">
+                <img src="humidity.png" alt="humidity icon">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="wind.png" alt="wind icon">
+                <div>
+                    <p class="wind">15 KM/Hr</p>
+                    <p>Wind</p>
+                </div>
+            </div>
+
+            <div class="col mist-container" style="display: none;">
+                <img src="mist.png" alt="mist icon">
+                <div>
+                    <p class="mist">Mist</p>
+                </div>
+            </div>
+
+            <div class="col drizzle-container" style="display: none;">
+                <img src="drizzle.png" alt="drizzle icon">
+                <div>
+                    <p class="drizzle">Drizzle</p>
+                </div>
+            </div>
+
+            <div class="col rain-container" style="display: none;">
+                <img src="rain.png" alt="rain icon">
+                <div>
+                    <p class="rain">Rain</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="social-icons">
+            <a href="https://www.instagram.com/parashar__ankit_/profilecard/?igsh=bnpjZGFndDZvbnZk" target="_blank" aria-label="Instagram">
+                <img src="https://img.icons8.com/fluent/48/ffffff/instagram-new.png" alt="Instagram" />
+            </a>
+            <a href="https://github.com/CARBO889" target="_blank" aria-label="GitHub">
+                <img src="https://img.icons8.com/fluent/48/ffffff/github.png" alt="GitHub" />
+            </a>
+            <a href="www.linkedin.com/in/ankit-parashar-4720b42aa" target="_blank" aria-label="LinkedIn">
+                <img src="https://img.icons8.com/fluent/48/ffffff/linkedin.png" alt="LinkedIn" />
+            </a>
+        </div>
+        <p>Created and owned by Mr. Ankit Parashar</p>
+        
+    </div>
+</footer> 
+
+<script src="script.js"></script>
+
+</body>
+</html>

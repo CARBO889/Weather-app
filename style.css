@@ -1,0 +1,157 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:rgb(71, 69, 69);
+
+}
+
+.card{
+    width:90%;
+    max-width:470px;
+    height:100%;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    color:#fff;
+    margin:100px auto 0;
+    border-radius:20px;
+    padding:40px 35px;
+    text-align:center;
+}
+
+.search{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.search input{
+    border:0px;
+    outline:0px;
+    background:#ebfffc;
+    color:#555;
+    padding:10px 25px;
+    height:60px;
+    border-radius:30px;
+    flex:1;
+    margin-right:16px;
+    font-size:18px;
+
+}
+
+.search button{
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    cursor:pointer;
+}
+
+.search button img{
+    width:16px;
+
+}
+
+.weather-icon{
+    width:170px;
+    margin-top:30px;
+}
+
+.weather h1{
+    font-size:45px;
+    
+    font-weight:500;
+}
+
+.details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top:50px ;
+}
+
+.col{
+    display:flex;
+    align-items:center;
+    text-align:left;
+
+}
+
+.col img{
+    width:40px;
+    margin-right:10px;
+
+}
+
+.weather{
+    display:none;
+}
+
+.error{
+    text-align: left;
+        margin-left: 10px;
+        font-size:14px;
+        margin-top:10px;
+        display:none;
+
+}
+    
+
+footer {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    width: 100%; /* Ensures the footer spans the full width of the page */
+}
+
+/* Center footer content and limit its width */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Adjust footer text styles */
+.footer-container p {
+    margin: 10px 0;
+    color: #bfbfbf;
+}
+
+.footer-container a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
+
+/* Social icons */
+.social-icons {
+    margin: 20px 0;
+}
+
+/* Social icon links and hover effect */
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+
+
